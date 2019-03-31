@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Developer Quiz</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript" src="assets/javascript/script.js"></script>
+  </head>
+  <body>
+<!-- Navbar -->
+    <nav class="nav-extended teal">
+      <div class="nav-content">
+        <span class="nav-title">&lt;Coding Quiz/&gt;</span>
+        <span class="btn-floating btn-large halfway-fab waves-effect waves-light" id="page-timer"></span>
+      </div>
+    </nav>
+
+    <div class="row">
+      <div class="col s12 m6">
+        <div class="card blue-grey">
+          <div class="card-content white-text" id="welcome">
+            <span class="card-title">Welcome</span>
+            <div>
+              <div id="instructions">
+                <p>Press to start. You have 60 seconds to answer as many questions as you can.</p>
+              </div>
+              <button class="btn waves-effect waves-light" type="button" id="start">Start Quiz</button>
+            </div>
+          </div>
+
+          <div class="card-content white-text" id="quiz">
+            <span class="card-title" id="question"></span>
+            <form action="">
+              <div id="response-list"></div>
+              <button class="btn waves-effect waves-light" type="button" id="next">Next</button>
+            </form>
+          </div>
+
+          <div class="card-content white-text" id="results">
+            <span class="card-title">Results</span>
+            <div>
+              <p id="result-message"></p>
+              <button class="btn waves-effect waves-light" type="button" id="start">Take Quiz Again</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

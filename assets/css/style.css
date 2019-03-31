@@ -1,0 +1,11 @@
+#quiz{
+  display: none;
+}
+
+#results{
+  display: none;
+}
+
+.card{
+  /* margin:auto; */
+}
